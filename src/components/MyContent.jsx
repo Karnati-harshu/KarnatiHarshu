@@ -39,7 +39,7 @@ const MyContent = () => {
               Full Stack Developer
             </motion.span>
             <motion.p
-              variants={container(1)}
+              variants={container(0.7)}
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tight"
