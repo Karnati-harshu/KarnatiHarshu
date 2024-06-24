@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { myContent } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/HarshithaProfile.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import resume from "../assets/Resume.pdf"
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -12,8 +14,9 @@ const container = (delay) => ({
 });
 
 const MyContent = () => {
+  const [menu, setMenu] = useState("menu")
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div id="home" className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -70,11 +73,17 @@ const MyContent = () => {
             </div>
             <div className="flex justify-center lg:justify-start">
               <div className="flex items-center justify-center gap-5 text-xl my-5">
-                <button className="bg-orange-500 hover:bg-red-900 text-white font-semibold py-1 px-2 rounded">
+                <a href={resume} download="HarshithaResume"><button className="bg-orange-500 hover:bg-red-900 text-white font-semibold py-1 px-2 rounded hover:scale-110">
                   Resume
-                </button>
-                <button className="bg-cyan-300 hover:bg-blue-700 text-white font-semibold py-1 px-2 rounded">
-                  Get Hired
+                </button></a>
+                <button className="bg-cyan-300 hover:bg-blue-700 text-white font-semibold py-1 px-2 rounded hover:scale-110">
+                  <AnchorLink
+                    className="no-underline text-white "
+                    offset={50}
+                    href="#contact"
+                  >
+                    <p onClick={() => setMenu("contact")}>Connect with Me</p>
+                  </AnchorLink>
                 </button>
               </div>
             </div>
@@ -82,7 +91,13 @@ const MyContent = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,delay:1.2}} src={profilePic} alt="Harshitha Karnati picture" />
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.2 }}
+              src={profilePic}
+              alt="Harshitha Karnati picture"
+            />
           </div>
         </div>
       </div>
