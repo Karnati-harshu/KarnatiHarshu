@@ -1,6 +1,6 @@
 import React from "react";
 import { aboutMe } from "../constants";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/about.png";
 import { motion } from "framer-motion";
 
 const AboutMe = () => {
@@ -20,7 +20,7 @@ const AboutMe = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="MyImage" />
+            <img className="rounded-full w-80 h-96" src={aboutImg} alt="MyImage" />
           </div>
         </motion.div>
         <motion.div
@@ -30,7 +30,7 @@ const AboutMe = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{aboutMe}</p>
+            <p className="my-2 max-w-xl py-6 mt-10">{aboutMe}</p>
           </div>
         </motion.div>
       </div>
