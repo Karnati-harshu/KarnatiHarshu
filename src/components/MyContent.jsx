@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import resume from "../assets/Resume.pdf"
+import { ReactTyped } from "react-typed";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -36,13 +37,20 @@ const MyContent = () => {
               animate="visible"
               className="bg-gradient-to-r from-blue-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              <ReactTyped
+                strings={["Full Stack Developer", "Jr. Web Developer"]}
+                typeSpeed={100}
+                loop
+                backSpeed={20}
+                cursorChar="|"
+                showCursor={true}
+              />
             </motion.span>
             <motion.p
               variants={container(0.7)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tight" 
+              className="my-2 max-w-xl py-6 font-light tracking-tight"
             >
               {myContent}
             </motion.p>
@@ -91,7 +99,7 @@ const MyContent = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img
+            <motion.img className="rounded-full h-96 w-96 mt-20"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
