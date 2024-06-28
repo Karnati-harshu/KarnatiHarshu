@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const myContent = "Experienced Junior Web Developer specializing in full-stack web development with a strong focus on React, Next.js, Node.js, and MongoDB. Proven track record of delivering high-impact web applications, optimizing performance, and integrating advanced technologies like AWS and Stripe.";
 
@@ -92,7 +93,7 @@ export const projectsList = [
 
   {
     title: "Portfolio",
-    image: project4,
+    image: project5,
     description: `
             Developed a personal portfolio to showcase projects and skills using React and Next.js. 
             Features an interactive interface, responsive design, and integration with a content management system for easy updates.
