@@ -42,7 +42,7 @@ const MyContent = () => {
               variants={container(0.7)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tight"
+              className="my-2 max-w-xl py-6 font-light tracking-tight" 
             >
               {myContent}
             </motion.p>
