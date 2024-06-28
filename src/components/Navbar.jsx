@@ -13,7 +13,7 @@ const Navbar = () => {
     setMenuOpen(false);
   }
   return (
-    <nav className="mb-5 relative flex items-center justify-between py-6 lg:mb-2 lg:py-2">
+    <nav className="mb-5 relative flex items-center justify-between py-6 xl:py-14 lg:mb-2 lg:py-2">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-16  text-2xl" src={logo} alt="logo" />
       </div>

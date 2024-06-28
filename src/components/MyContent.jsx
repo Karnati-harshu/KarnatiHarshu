@@ -17,7 +17,7 @@ const container = (delay) => ({
 const MyContent = () => {
   const [menu, setMenu] = useState("menu")
   return (
-    <div id="home" className="border-b border-neutral-900 pb-4 h-dvh lg:mb-35">
+    <div id="home" className="border-b border-neutral-900 mx-10 pb-4 lg:mb-35 2xl:pt-15">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -99,7 +99,7 @@ const MyContent = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img className="rounded-full w-96 h-105 mt-10"
+            <motion.img className="rounded-full w-50 h-65 mt-10 lg:w-96 lg:h-110"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
