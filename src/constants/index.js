@@ -31,7 +31,7 @@ export const experience = [
   {
     year: "2020-2022",
     role: "Junior Web Developer",
-    organization: "Teton Private Ltd.",
+    organization: "Intense Technologies",
     description: `
         Developed and maintained web applications using React, Next.js, and TypeScript.
         Created over 50 RESTful APIs with ExpressJS, Node.js, and MongoDB.
