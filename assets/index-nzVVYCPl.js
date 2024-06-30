@@ -49,7 +49,7 @@ I excel in collaborative environments, demonstrate strong problem-solving skills
         Conducted research on privacy-preserving techniques for medical data, focusing on Renyi Differential Privacy (RDP).
         Performed experimentation with Python, TensorFlow, and PyTorch, demonstrating improved privacy with RDP.
         Submitted a research paper to the AIIOT 2024 conference, currently under review.
-        `,technologies:["Python","TensorFlow","PyTorch","Opacus","NumPy"]},{year:"2020-2022",role:"Junior Web Developer",organization:"Teton Private Ltd.",description:`
+        `,technologies:["Python","TensorFlow","PyTorch","Opacus","NumPy"]},{year:"2020-2022",role:"Junior Web Developer",organization:"Intense Technologies",description:`
         Developed and maintained web applications using React, Next.js, and TypeScript.
         Created over 50 RESTful APIs with ExpressJS, Node.js, and MongoDB.
         Collaborated with cross-functional teams to deliver high-quality products.
