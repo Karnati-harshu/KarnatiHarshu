@@ -1,5 +1,3 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
@@ -55,24 +53,6 @@ export const experience = [
 
 export const projectsList = [
   {
-    title: "Interactive Code Editor",
-    image: project1,
-    description: `
-        Developed an online code editor using React, Redux, Ace Editor, Node.js, and MongoDB. 
-        Features real-time coding with live preview, syntax highlighting, code linting, and secure user authentication.
-        `,
-    technologies: ["React", "Redux", "Ace Editor", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Video Streaming Platform",
-    image: project2,
-    description: `
-        Created a video streaming platform with React, Node.js, AWS S3, FFmpeg, and AWS CloudFront. 
-        Enables video upload, adaptive streaming, user profiles, comments, likes, and recommendations.
-        `,
-    technologies: ["React", "Node.js", "AWS S3", "FFmpeg", "AWS CloudFront"],
-  },
-  {
     title: "Social Networking Application",
     image: project3,
     description: `
@@ -95,10 +75,10 @@ export const projectsList = [
     title: "Portfolio",
     image: project5,
     description: `
-            Developed a personal portfolio to showcase projects and skills using React and Next.js. 
+            Developed a personal portfolio to showcase projects and skills using React and Framer Motion. 
             Features an interactive interface, responsive design, and integration with a content management system for easy updates.
             `,
-    technologies: ["React", "Next.js", "CSS", "Contentful"],
+    technologies: ["React", "CSS", "Framer Motion"],
   },
 ]
 
