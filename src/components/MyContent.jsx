@@ -38,7 +38,7 @@ const MyContent = () => {
               className="bg-gradient-to-r from-blue-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
               <ReactTyped
-                strings={["Full Stack Developer", "Jr. Web Developer"]}
+                strings={["Full Stack Developer", "Senior Software Engineer"]}
                 typeSpeed={100}
                 loop
                 backSpeed={20}
