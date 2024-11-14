@@ -1,11 +1,11 @@
-import project3 from "../assets/projects/project-3.png";
+
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 
-export const myContent = "Experienced Junior Web Developer specializing in full-stack web development with a strong focus on React, Next.js, Node.js, and MongoDB. Proven track record of delivering high-impact web applications, optimizing performance, and integrating advanced technologies like AWS and Stripe.";
+export const myContent = "Experienced Senior Software Engineer specializing in full-stack web development with a strong focus on React, Next.js, Node.js, and MongoDB. Proven track record of delivering high-impact web applications, optimizing performance, and integrating advanced technologies like AWS and Stripe.";
 
 export const aboutMe = `
-Hi, I'm Harshitha Karnati, a Junior Web Stack Developer with over 2 years of experience in full-stack development. 
+Hi, I'm Harshitha Karnati, a Senior Software Engineer with over 4 years of experience in full-stack development. 
 I specialize in React, Next.js, Node.js, and MongoDB, creating high-impact web applications with a focus on performance optimization and seamless integration of advanced technologies like AWS and Stripe.
 
 I hold a Master’s in Information Technology from North Carolina A&T State University and a Bachelor’s in Electronics and Communication Engineering from VNR Vignana Jyothi Institute of Engineering & Technology. 
@@ -16,6 +16,21 @@ I excel in collaborative environments, demonstrate strong problem-solving skills
 
 export const experience = [
   {
+    year: "2024-present",
+    role: "Senior Software Engineer",
+    organization: "Hoosier Community Network",
+    description: `
+        Led the full-stack development of the DWIG Talent Matcher using React, Node.js, Express.js, and MongoDB, where I designed RESTful APIs, optimized system efficiency by 15%, and integrated Redux for state management. To support scalability, I implemented a microservices architecture for the backend. Collaborated with a cross-functional team—including designers, project managers, and data analysts—to refine project objectives, ensure smooth feature rollouts, and uphold agile development practices. Tools used in this project included Git, GitHub, Jira, Vercel, and Docker.
+        `,
+    technologies: [
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "ExpressJS",
+      "Node.js",
+      "MongoDB",
+      ],
+  },{
     year: "2023-2024",
     role: "Graduate Research Assistant",
     organization: "North Carolina A&T State University",
@@ -52,15 +67,6 @@ export const experience = [
 ]
 
 export const projectsList = [
-  {
-    title: "Social Networking Application",
-    image: project3,
-    description: `
-        Developed a social networking app with React Native, Firebase, and Node.js. 
-        Supports image uploads, real-time notifications, user authentication, and an interactive feed for user engagement.
-        `,
-    technologies: ["React Native", "Firebase", "Node.js"],
-  },
   {
     title: "E-Commerce Platform",
     image: project4,
