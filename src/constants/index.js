@@ -81,7 +81,7 @@ authentication, real-time chat with Socket.io, Stripe payment integration, and r
 Setup RESTful APIs, middleware for protected routes, stock management, Cloudinary-based image uploads, and
 admin-to-vendor payment transfers while ensuring responsive design and optimal performance.
         `,
-    technologies: ["React.js", "Redux", "Node.js", "Express.js", "MongoDB", "Stripe", "Socket.io", "Tailwind CSS"],
+    technologies: ["React.js", "Redux", "Node.js", "Express.js", "MongoDB", "Stripe", "Tailwind CSS"],
   },
 
   {
